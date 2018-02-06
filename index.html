@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kyle Wang</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/components/dimmer.min.js"></script>
+    <link rel="stylesheet" href="public/styles/app.css">
+  </head>
+  <body>
+
+  <section class="landing">
+
+    <div class="ui container">
+      <div class="ui inverted segment">
+        <div class="ui inverted secondary pointing menu">
+          <a class="item" id="home" href="">Home</a>
+          <a class="item" id="competitions" href="#competitionsSection">Competitions</a>
+          <a class="item" id="projects" href="#projectsSection">Projects</a>
+          <div class="right menu">
+            <!-- <a class="item">About</a> -->
+            <a class="item">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="typewriter" class="ui header center aligned">Hello, I'm Kyle Wang</h1>
+
+      <div class="sqaure">
+        <img class="ui circular medium image displayPicture" src="images/IMG_8421.jpg"></img>
+      </div>
+
+      <!-- <p id="briefIntro">I am a web/mobile developer</p> -->
+
+    </div>
+
+    <div class="scroll">
+        <a id="scrollAnchor" href="#myExpertise">Find Out More About Kyle</a>
+        <br>
+        <a id="scrollAnchor" href="#myExpertise"><i class="angle double down icon large"></i></a>
+    </div>
+
+  </section>
+
+<!--      =======================================================
+                                My Expertise
+          =======================================================     -->
+
+  <section id="myExpertise">
+
+    <h1 class="ui header center aligned">My Expertise
+      <div class="sub header">Not limited to</div>
+    </h1>
+
+    <div class="ui three column very relaxed grid">
+      <div class="column">
+        <h2 class="ui icon header">
+          <i class="html5 icon"></i>
+          <div class="content">
+            Web Development
+            <div class="sub header">I create modern responsive websites with elegant design <br>
+                                    using various web development frameworks </div>
+          </div>
+        </h2>
+      </div>
+      <div class="column">
+        <h2 class="ui icon header">
+          <i class="code icon"></i>
+          <div class="content">
+            Code & Design
+            <div class="sub header">I build working software with clean code that meet client requirements</div>
+          </div>
+        </h2>
+      </div>
+
+      <div class="column">
+        <h2 class="ui icon header">
+          <i class="database icon"></i>
+          <div class="content">
+            Database
+            <div class="sub header">I build database systems to make sure applications never lose track of data</div>
+          </div>
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+<!--      =======================================================
+                                Competitions
+          =======================================================     -->
+
+  <section id="competitionsSection">
+
+      <h1 class="ui header center aligned">Competitions
+        <div class="sub header">Projects built for hackathons</div>
+      </h1>
+
+      <div class="projectList">
+        <div id="passCache">
+          <img id="passCacheImg"class="ui rounded left floated image" src="images/android-2249354_1280.png">
+          <h2 class="ui header">
+            <div class="content">
+              PassCache
+              <div class="sub header">Android Mobile App</div>
+              <p>A mobile application built for Adroid phones that lets you store account credentials for instant access.</p>
+            </div>
+          </h2>
+        </div>
+
+        <div id="airPebble">
+          <img id="airPebbleImg"class="ui rounded left floated image" src="images/wearables-2316471_1280.png">
+          <h2 class="ui header">
+            <div class="content">
+              Air Pebble
+              <div class="sub header">Pebble Smartwatch App</div>
+              <p>Check the Air Quality Index based on your location at any moment with your Pebble smartwatch.</p>
+            </div>
+          </h2>
+        </div>
+      </div>
+
+  </section>
+
+
+<!--      =======================================================
+                                Projects
+          =======================================================     -->
+
+  <section id="projectsSection">
+
+    <h1 class="ui header center aligned">Projects
+      <div class="sub header">Course & Personal Projects</div>
+    </h1>
+
+    <div class="projectList">
+      <div id="musicManager" class="ui">
+        <img id="passCacheImg" class="ui rounded image" src="images/pexels-photo-351265.jpeg">
+        <h2 class="ui center icon header">
+          <div class="content">
+            Music Library Manager
+            <div class="sub header">Windows Desktop Application</div>
+            <p>Organize your music library and play music on your computer with single app.</p>
+          </div>
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+
+<!--      =======================================================
+                                Footer
+          =======================================================     -->
+
+  <section id="footerSection">
+
+    <h1 class="ui header center aligned">More Info</h1>
+
+    <div class="github">
+        <a href="https://github.com/kwa52"><i class="github icon"></i></a>
+    </div>
+
+
+  </section>
+
+
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+</html>
