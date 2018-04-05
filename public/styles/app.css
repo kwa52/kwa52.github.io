@@ -39,8 +39,20 @@ img.displayPicture {
   margin-top: 50px;
 }
 
+h2.ui.header .sub.header {
+  margin-top: 10px;
+}
+
 .projectList p {
   font-size: 20px;
+}
+
+.projectList .content {
+  font-size: 28px;
+}
+
+.projectList .sub .header {
+  margin-top: 10px;
 }
 
 .project {
@@ -119,7 +131,12 @@ i.code {
   text-align: center;
 }
 
-#musicManager {
+#dineMe {
+  margin-bottom: 30px;
+}
+
+#dineMe img {
+  margin: auto;
 }
 
 #musicManager img {
