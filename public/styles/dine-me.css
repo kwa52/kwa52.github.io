@@ -1,0 +1,16 @@
+
+.screenshotSize {
+  height: 500px;
+}
+
+#previews div {
+  display: inline-block;
+}
+
+#addRestaurantScreenshots div {
+  display: inline-block;
+}
+
+#nearbyScreenshots div {
+  display: inline-block;
+}

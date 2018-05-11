@@ -59,6 +59,11 @@ h2.ui.header .sub.header {
   margin-top: 50px;
 }
 
+.projectImg {
+  height: 200px;
+  width: 350px;
+}
+
 /*        =======================================================
                                 My Expertise
           =======================================================     */
@@ -100,8 +105,6 @@ i.code {
 }
 
 #passCacheImg {
-  height: 200px;
-  width: 350px;
   margin-right: 100px;
 }
 
