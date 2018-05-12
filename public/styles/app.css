@@ -88,6 +88,10 @@ i.code {
   color: orange;
 }
 
+i.apple {
+  color: lightgray;
+}
+
 /*        =======================================================
                                 Competitions
           =======================================================     */
@@ -158,21 +162,21 @@ i.code {
           =======================================================     */
 
 #footerSection {
-  height: 30%;
-  width: 100%;
+  height: 20%;
   background: black;
 }
 
 #footerSection h1 {
+  padding-top: 20px;
   color: white;
 }
 
 div.github {
   text-align: center;
-  margin: 50px;
 }
 
 i.github.icon {
   color: white;
   font-size: 50px;
+  padding-top: 20px;
 }
