@@ -41,6 +41,9 @@
 .useCaseDescription h1{
   font-size: 2vw;
 }
+.useCaseDescription p {
+  font-size: 1vw;
+}
 
 #addRestaurantScreenshots {
   text-align: center;
