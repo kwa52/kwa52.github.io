@@ -137,8 +137,14 @@ i.code {
   margin-bottom: 30px;
 }
 
+#dineMe a {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
 #dineMe img {
-  margin: auto;
+  width: 100%;
 }
 
 #musicManager img {
