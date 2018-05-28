@@ -104,6 +104,20 @@ i.apple {
   padding-top: 30px;
 }
 
+#khaiCamp {
+  margin-bottom: 30px;
+}
+
+#khaiCamp a {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+#khaiCamp img {
+  width: 100%;
+}
+
 #dineMe {
   margin-bottom: 30px;
 }
