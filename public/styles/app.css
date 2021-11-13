@@ -25,11 +25,12 @@ img.displayPicture {
 }
 
 #scroll {
+  width: 100%; 
+  display:block;
+  text-align: center;
   font-size: 20px;
   position: absolute;
   bottom: 0px;
-  margin-left: 42%;
-  text-align: center;
 }
 
 .projectList {
