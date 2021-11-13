@@ -72,7 +72,7 @@ h2.ui.header .sub.header {
           =======================================================     */
 
 #myExpertise {
-  /* height: 35%; */
+   height: 30%; 
   overflow: auto;
   margin-top: 30px;
 }
