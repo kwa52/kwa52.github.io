@@ -72,7 +72,7 @@ h2.ui.header .sub.header {
           =======================================================     */
 
 #myExpertise {
-   height: 30%; 
+  height: 30%; 
   overflow: auto;
   margin-top: 30px;
 }
@@ -105,6 +105,17 @@ i.apple {
   padding-top: 30px;
 }
 
+#dineMe {
+  padding-top: 30px;
+  /*margin-bottom: 30px;*/
+}
+
+#dineMe a {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
 #khaiCamp {
   margin-bottom: 30px;
 }
@@ -117,16 +128,6 @@ i.apple {
 
 #khaiCamp img {
   width: 100%;
-}
-
-#dineMe {
-  margin-bottom: 30px;
-}
-
-#dineMe a {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
 }
 
 #dineMe img {
